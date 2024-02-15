@@ -1,0 +1,180 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  
+}
+
+
+
+nav{
+  position: fixed;
+}
+
+body{
+  background-color: black;
+}
+
+
+
+section#home{
+  background-image: url(../images/group-banner.jpg);
+  height: 80vh;
+  
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ 
+.card-main{
+  background-color: rgb(41, 41, 41);
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.card-main img{
+  width: 400px;
+}
+
+.card-main .read-btn{
+  background-color: brown;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  margin: 0 auto;
+  
+  
+}
+
+.card-main .read-btn a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.card-main img{
+  border-radius: 20px;
+}
+
+.card-main .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-main .content h3{
+  font-size: 30px;
+
+}
+
+
+
+#our-courses img{
+  width: 500px;
+  margin-top: 20px;
+  
+}
+
+.course-image{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.course-image .more-courses-btn button {
+  background-color: brown;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  
+ 
+}
+
+.course-image .more-courses-btn button a{
+  text-decoration: none;
+  color: white;
+}
+
+iframe{
+  padding: 25px;
+  width: 550px;
+  
+}
+
+.btn-danger{
+  width: 250px;
+  background-color: brown;
+  border-radius: 10px;
+  
+}
+
+footer{
+  background-color:rgb(41, 41, 41); 
+  padding: 50px;
+}
+
+
+
+
+
+
+@Media screen and (max-width : 320px){
+	#our-courses img{
+    width: 300px;
+    margin-top: 20px;
+    
+  }
+
+  .card-main img{
+    width: 300px;
+  }
+
+  section#home{
+    background-image: url(../images/group-banner.jpg);
+    height: 50vh;
+    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .course-image .more-courses-btn button {
+    
+    width: 120px;
+    padding: 10px;
+    
+    
+    
+   
+  }
+
+  iframe{
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    
+  }
+
+  .form-fill{
+    flex-direction: column;
+  }
+  
+
+  
+  
+}
+
